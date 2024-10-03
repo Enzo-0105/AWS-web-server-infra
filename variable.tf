@@ -23,4 +23,7 @@ variable "private-cidr" {
   default = "10.0.8.0/24"
 }
 
-variable "env" {}
+variable "env" {
+  type = string
+  default = "dev"
+}
