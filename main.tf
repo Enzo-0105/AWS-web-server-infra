@@ -31,7 +31,7 @@ resource "aws_vpc" "vpc" {
 
   tags = {
     Name      = "Web-server-vpc"
-    Terraform = "No"
+    Terraform = "Yes"
   }
 }
 
